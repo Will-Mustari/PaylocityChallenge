@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Paylocity Challenge</string>
+
+    <string name="welcome_title">Welcome!</string>
+
+    <string name="welcome_subtitle">To get started, let\'s add\n an employee and their dependents.</string>
+
+    <string name="button_text">Continue</string>
+    <string name="paylocity_logo">paylocity logo</string>
+
+</resources>

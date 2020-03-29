@@ -1,0 +1,2 @@
+rootProject.name='Paylocity Challenge'
+include ':app'
