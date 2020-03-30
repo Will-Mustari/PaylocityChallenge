@@ -1,11 +1,22 @@
 <resources>
+
     <string name="app_name">Paylocity Challenge</string>
-
     <string name="welcome_title">Welcome!</string>
-
     <string name="welcome_subtitle">To get started, let\'s add\n an employee and their dependents.</string>
-
     <string name="button_text">Continue</string>
     <string name="paylocity_logo">paylocity logo</string>
+    <string name="current_employees">Current\nEmployees</string>
+    <string name="total_cost">Total Cost:\n$0</string>
+    <string name="employee_name">Employee Name</string>
+    <string name="number_dependants">Dependants: 0</string>
+    <string name="employee_cost">Cost:\n$0</string>
+    <string name="new_employee_name">Employee:</string>
+    <string name="new_dependant_names">None</string>
+    <string name="new_dependant_title">Dependants:</string>
+    <string name="created_dependant_start">Dependants:\n</string>
+    <string name="dependent_dialog">Dependent:</string>
+    <string name="name_placeholder">FirstName LastName</string>
+    <string name="add_dependant">ADD DEPENDANT</string>
+    <string name="save_employee">SAVE EMPLOYEE</string>
 
 </resources>

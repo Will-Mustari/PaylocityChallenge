@@ -1,7 +1,5 @@
 package com.example.paylocitychallenge.ui.homeScreen;
 
-import androidx.annotation.VisibleForTesting;
-
 public class HomePresenter implements HomeContract.Presenter {
 
     private HomeContract.View mHomeView;
@@ -12,22 +10,14 @@ public class HomePresenter implements HomeContract.Presenter {
     }
 
     @Override
-    public HomeContract.View getView() {
-        return mHomeView;
-    }
+    public HomeContract.View getView() { return mHomeView; }
 
     @Override
-    public boolean start() {
-        return false;
-    }
+    public boolean start() { return false; }
 
     @Override
-    public void stop() {
+    public void stop() { }
 
-    }
-
-    @VisibleForTesting
-    public void setView(HomeContract.View view){
-        mHomeView = view;
-    }
+    //TODO Needed if we implemented testing
+//    public void setView(HomeContract.View view){ mHomeView = view; }
 }

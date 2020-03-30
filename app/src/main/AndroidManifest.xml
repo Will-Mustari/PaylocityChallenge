@@ -22,6 +22,11 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ui.mainScreen.MainActivity" />
         </activity>
+        <activity android:name=".ui.newEmployeeScreen.NewEmployeeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.homeScreen.HomeActivity" />
+        </activity>
     </application>
 
 </manifest>

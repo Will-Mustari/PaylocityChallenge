@@ -9,9 +9,8 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
 import com.example.paylocitychallenge.databinding.FragmentMainBinding;
-import com.example.paylocitychallenge.ui.homeScreen.HomeActivity;
+import com.example.paylocitychallenge.ui.newEmployeeScreen.NewEmployeeActivity;
 
 @SuppressWarnings({"FieldCanBeLocal", "unused"})
 public class MainFragment extends Fragment implements MainContract.View {
@@ -23,9 +22,7 @@ public class MainFragment extends Fragment implements MainContract.View {
     static MainFragment newInstance() { return new MainFragment();}
 
     @Override
-    public void setPresenter(MainContract.Presenter presenter) {
-        mPresenter = presenter;
-    }
+    public void setPresenter(MainContract.Presenter presenter) { mPresenter = presenter; }
 
     @Override
     public void showErrorAndKill(int messageId, boolean shouldKill) {
@@ -74,7 +71,7 @@ public class MainFragment extends Fragment implements MainContract.View {
 
         @Override
         public void onClick(View v) {
-            Intent intent = new Intent(mContext, HomeActivity.class);
+            Intent intent = new Intent(mContext, NewEmployeeActivity.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
             startActivity(intent);
         }

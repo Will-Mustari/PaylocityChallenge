@@ -1,7 +1,5 @@
 package com.example.paylocitychallenge.ui.mainScreen;
 
-import androidx.annotation.VisibleForTesting;
-
 public class MainPresenter implements MainContract.Presenter {
 
     private MainContract.View mMainView;
@@ -12,22 +10,14 @@ public class MainPresenter implements MainContract.Presenter {
     }
 
     @Override
-    public MainContract.View getView() {
-        return mMainView;
-    }
+    public MainContract.View getView() { return mMainView; }
 
     @Override
-    public boolean start() {
-        return false;
-    }
+    public boolean start() { return false; }
 
     @Override
-    public void stop() {
+    public void stop() { }
 
-    }
-
-    @VisibleForTesting
-    public void setView(MainContract.View view){
-        mMainView = view;
-    }
+    //TODO Needed if we implemented testing
+//    public void setView(MainContract.View view){ mMainView = view; }
 }
